@@ -1,0 +1,119 @@
+
+body{
+    background: #3f3564;
+}
+
+#conteudo{
+    text-align: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#titulop{
+    margin: 0 auto;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+.ListaItens{
+    width: 200px;
+    background-color: rgb(221, 237, 252);
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: #101011 10px;
+    
+}
+
+.btn{
+    border-style: none;
+    background: rgb(16, 141, 89);
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 5px;
+    width: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgb(25, 202, 179);
+    color: #f6fff4;
+    transition: 0.3s ease-in;
+}
+
+input{
+    justify-content: center;
+    display: flex;
+    background: rgb(141, 162, 228);
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+input:focus{
+    justify-content: center;
+    display: flex;
+    background: rgb(110, 186, 209);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border-style: none;
+}
+
+#tabela{
+    background: rgb(221, 237, 252);
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+table td, table th{
+    border:solid #3f3564 1px;
+    background: #2b2347;
+    color: aliceblue;
+    
+}
+
+table td{
+    background: #f6fff4;
+    color: #2b2347;
+    height: 40px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#btntb1{
+    border-style: none;
+    background: rgb(16, 141, 89);
+    border-radius: 50%;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+#btntb2{
+    border-style: none;
+    background: rgb(172, 11, 11);
+    border-radius: 50%;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+}
